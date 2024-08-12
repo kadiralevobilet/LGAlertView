@@ -21,6 +21,9 @@ let package = Package(
             publicHeadersPath: "Framework/LGAlertViewFramework", // Header file path
             cSettings: [
                 .headerSearchPath("Framework/**") // Header search path
+            ],
+            linkerSettings: [
+                .linkedFramework("UIKit"),
             ]
         )
     ]

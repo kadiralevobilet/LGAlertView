@@ -18,9 +18,9 @@ let package = Package(
             name: "LGAlertView",
             dependencies: [],
             path: "LGAlertView", // Objective-C source file path
-            publicHeadersPath: "Framework", // Header file path
+            publicHeadersPath: "LGAlertView", // Header file path
             cSettings: [
-                .headerSearchPath("Framework") // Header search path
+                .headerSearchPath("LGAlertView") // Header search path
             ],
             linkerSettings: [
                 .linkedFramework("UIKit"),

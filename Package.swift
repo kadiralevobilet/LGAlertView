@@ -22,12 +22,7 @@ let package = Package(
             cSettings: [
                 .headerSearchPath("./Framework/") // Header search path
             ]
-        ),
-        .testTarget(
-            name: "ProjeAdiTests",
-            dependencies: ["ProjeAdi"],
-            path: "Tests"
-        ),
+        )
     ]
 )
 

@@ -20,7 +20,7 @@ let package = Package(
             path: "LGAlertView", // Objective-C source file path
             publicHeadersPath: "LGAlertView", // Header file path
             cSettings: [
-                .headerSearchPath("LGAlertView") // Header search path
+                .headerSearchPath("Framework/LGAlertViewFramework/") // Header search path
             ],
             linkerSettings: [
                 .linkedFramework("UIKit"),
